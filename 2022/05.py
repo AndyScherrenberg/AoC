@@ -4,7 +4,7 @@ def cr(cts):
    
     lrs = lr.strip()
 
-    ar = qr[len(lr)-4]
+    ar = lrs[len(lr)-4]
     ra= range(0,int(ar))
     
     st = list()
